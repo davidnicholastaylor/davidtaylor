@@ -1,3 +1,32 @@
+.landing {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text-block {
+    position: absolute;
+    height: 30%;
+    width: 40%;
+    top: 50px;
+    left: 50px;
+    opacity: 0.75;
+    background-color: black;
+    color: antiquewhite;
+    padding: 1em 2em 1em 2em;
+}
+
+#link {
+    border: solid 1px slateblue;
+}
+
+.imageSize {
+    height: 200px;
+}
+
+
+/* Ticker */
+
 .technologiesUsed {
     height: 200px;
     max-width: 800px;
@@ -17,7 +46,7 @@
     transform: translate3d(0, 0, 0);
 }
 .technologiesUsed .ticker {
-animation: moveSlideshow 12s linear infinite;
+animation: moveSlideshow 15s linear infinite;
 }
 
 @keyframes moveSlideshow {
