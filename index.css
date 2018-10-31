@@ -42,9 +42,8 @@
     height: 150px;
     overflow: hidden;
     box-sizing: content-box;
-    padding-left: 50%;
-    padding-right: 50%;
-  }
+    padding-left: 100%;
+}
 
 .ticker {
     display: inline-block;
@@ -52,9 +51,10 @@
     line-height: 150px;
     white-space: nowrap;
     box-sizing: content-box;
+    padding-right: 100%;
 
 -webkit-animation: moveSlideshow 20s;
-animation: moveSlideshow 15s linear infinite alternate;
+animation: moveSlideshow 15s linear infinite;
 }
 
 @-webkit-keyframes moveSlideshow {
