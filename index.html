@@ -5,41 +5,58 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>David Taylor</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="index.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 
-<body>  
-    <nav class="nav justify-content-end">
-        <a class="nav-link" href="#about">Who am I?</a>
-        <a class="nav-link" href="#projects">Projects</a>
-        <a class="nav-link" href="#technologiesUsed">Technologies Used</a>
+<body>
+    <nav class="nav fixed-top justify-content-end">
+        <a class="nav-link" href="#about"><button class="btn btn-sm btn-dark" type="button">About me</button></a>
+        <a class="nav-link" href="#projects"><button class="btn btn-sm btn-dark" type="button">Projects</button></a>
+        <a class="nav-link" href="#contact"><button class="btn btn-sm btn-dark" type="button">Contact</button></a>
     </nav>
 
     <div class="landing">
         <img src="images/tim-foster-1054698-unsplash-cropped.jpg" alt="landing photo" style="width:100%">
         <div class="text-block">
-            <h1 class="h-50 w-100">David Taylor</h1>
-            <h2 class="h-50 w-100">Software Programmer</h2>
+            <h1 style="font-size:5vw;" class="h-50 w-100">David Taylor</h1>
+            <h4 style="font-size:3vw;" class="h-50 w-100">Learn by failing forward</h2>
         </div>
     </div>
 
-    <section class="" id="about">
-        <div class="">
-            <p>My name is David Taylor. I love to learn. That is all.</p>
-        </div>
-        <div class="">
-            <img src="" alt="Personal Photo" />
+    <section class="aboutContainer" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="aboutDescription">
+                        <p>
+                            Continuous learning is my ultimate goal in life. Learning what it means to be fulfilled drives
+                            me
+                            forward - studying my passions and how they satisfy my desire to grow as a person. But it
+                            wasn’t
+                            until I discovered programming that I found a passion that can turn into a career.
+                        </p>
+                        <p>
+                            From day one of learning to program, I’ve been challenged. I’ve experienced defeat, persisted
+                            through
+                            failure and relished in accomplishment. Every failure brings a new lesson. Each lesson reveals
+                            a new
+                            perspective. Every perspective carries a new satisfaction with the failures that line the
+                            path of
+                            improvement - a path I follow with eager anticipation for the failures ahead.  
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img class="aboutPic" src="images/ProSelfie.PNG" alt="Personal Photo" />
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="projects">
 
-    </section>
-
-    <section class="technologiesUsed">
+    <section class="tickerContainer">
         <div class="ticker">
             <img class="imageSize" src="images/2000px-Git-logo.svg.png" />
             <img class="imageSize" src="images/Octocat.png" />
@@ -61,6 +78,96 @@
         </div>
     </section>
 
+    <section class="projectContainer" id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 class="projectTitle">Meme-otional</h3>
+                    <p>
+                        Life is often a blur. It’s difficult to assess the struggles and victories of day to day life.
+                        When trying to explain your overall wellness to a medical professional, most people can’t truly
+                        express how well they’ve truly been, defaulting to “I’m fine.”
+                    </p>
+                    <p>
+                        Meme-otional is a phone application designed to solve that problem in a fun and engaging way.
+                        Utilizing all components of CRUD functionality, Meme-otional tracks the users mood with gifs of
+                        memes. Using react chartsjs 2, all the moods you user feels will be added to a chart that
+                        totals the different categories.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div id="profilePicCol" class="col">
+                    <img class="projectPic" src="images/meme-otional-landing.png" alt="meme-otionalLanding">
+                </div>
+                <div id="profilePicCol" class="col">
+                    <img class="projectPic" src="images/meme-otional-add (2).png" alt="meme-otionalAdd">
+                </div>
+            </div>
+            <div class="row">
+                <div id="profilePicCol" class="col">
+                    <img class="projectPic" src="images/meme-otional-nav.png" alt="meme-otionalNav">
+                </div>
+                <div id="profilePicCol" class="col">
+                    <img class="projectPic" src="images/meme-otional-chart.png" alt="meme-otionalChart">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3 class="projectTitle">Use By</h3>
+                    <p>Americans waste food. Wasted food wreaks havoc on the environment and on people's wallets. You're not just adding more methane to the atmosphere from food going into landfills. You're also losing out on that hiking trip to Iceland you've been planning for years but never quite had enough money for.
+                    </p>
+                    <p>Use By is a phone application designed to elimate food waste and save the user money. It was created during the Nash Hack Weekathon held in October 2018. 
+                    </p>
+                    <p>Though I was only able to pair program because of computer issues, I personally assisted in the creation of the navbar component. I also participated in the early drafting process of the app, attending the consulting sessions prior to the 48 hour hackathon held over the weekend after the consulting sessions.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div id="profilePicCol" class="col">
+                    <img class="projectPic" src="images/use-by-main.png" alt="projectLanding">
+                </div>
+                <div id="profilePicCol" class="col">
+                    <img class="projectPic" src="images/use-by-recipe.png" alt="projectAdd">
+                </div>
+                <div id="profilePicCol" class="col">
+                    <img class="projectPic" src="images/use-by-stats.png" alt="projectNav">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contactContainer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img class="contactImage" src="images/OldSelfie.PNG" alt="Blue hair" />
+                </div>
+                <div class="col align-self-center" id="contactIcons">
+                    <a href="https://github.com/davidnicholastaylor">
+                        <img class="gitHubIcon" src="images/github-icon.png" alt="Github" />
+                    </a>
+                    Find me
+                    <br />
+                    <br />
+                    <br />
+                    <a href="mailto:dntaylor14@gmail.com">
+                        <img class="emailIcon" src="images/email-icon.png" alt="Email" />
+                    </a>
+                    Contact me
+                    <br />
+                    <br />
+                    <br />
+                    <a href="https://www.linkedin.com/in/dntaylor/">
+                        <img class="linkedInIcon" src="images/linkedin-icon.png" alt="LinkedIn" />
+                    </a>
+                    Connect with me
+
+
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 
