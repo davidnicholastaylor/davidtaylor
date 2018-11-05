@@ -110,7 +110,7 @@ body {
 
 .tickerContainer > div {
     height: 7em;
-    width: 8250px;
+    width: 650%;
     position: absolute;
     top: 0;
     left: 0;
