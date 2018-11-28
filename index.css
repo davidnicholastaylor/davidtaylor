@@ -14,6 +14,7 @@ body {
 
 .aboutPic {
     padding: 3em;
+    width: 75%;
 }
 
 .projectSection {
@@ -32,8 +33,8 @@ body {
 }
 
 .contactImage {
-    margin-left: 30%;
     margin-right: 0;
+    width: 75%;
 }
 
 .gitHubIcon {
