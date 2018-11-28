@@ -23,19 +23,6 @@ and (max-device-width: 320px) {
     width: 100%;
 }
 
-#navButton {
-    font-size: .75em;
-    background-color: black;
-    color: antiquewhite;
-    border: none;
-    opacity: .5;
-    
-}
-
-#hamburger {
-    
-}
-
 .projectSection {
     padding-top: 2em;
 }
@@ -95,8 +82,8 @@ and (max-device-width: 320px) {
 
 .text-block {
     position: absolute;
-    height: 45%;
-    width: 45%;
+    height: 65%;
+    width: 60%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
