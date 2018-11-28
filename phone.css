@@ -9,6 +9,7 @@ and (min-device-width: 0px)
 and (max-device-width: 320px) {
     
 .aboutContainer {
+    margin-top: 2em;
     padding-right: 1em;
     padding-left: 1em;
 }
@@ -20,6 +21,19 @@ and (max-device-width: 320px) {
 .aboutPic {
     padding: 1em;
     width: 100%;
+}
+
+#navButton {
+    font-size: .75em;
+    background-color: black;
+    color: antiquewhite;
+    border: none;
+    opacity: .5;
+    
+}
+
+#hamburger {
+    
 }
 
 .projectSection {
@@ -38,7 +52,6 @@ and (max-device-width: 320px) {
 }
 
 .contactImage {
-    margin-right: 0;
     width: 100%;
 }
 
@@ -82,8 +95,8 @@ and (max-device-width: 320px) {
 
 .text-block {
     position: absolute;
-    height: 40%;
-    width: 30%;
+    height: 45%;
+    width: 45%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -159,6 +172,7 @@ and (min-device-width: 321px)
 and (max-device-width: 375px) {
     
 .aboutContainer {
+    margin-top: 2em;
     padding-right: 1em; 
     padding-left: 1em;
 }
@@ -188,7 +202,6 @@ and (max-device-width: 375px) {
 }
 
 .contactImage {
-    margin-right: 0;
     width: 75%;
 }
 
@@ -207,7 +220,6 @@ and (max-device-width: 375px) {
 
 #contactIcons {
     display: block;
-    justify-content: center;
 }
 
 #meme-otional {
@@ -215,6 +227,10 @@ and (max-device-width: 375px) {
 }
 
 #use-by {
+    display: block;
+}
+
+#about {
     display: block;
 }
 
@@ -229,8 +245,8 @@ and (max-device-width: 375px) {
 
 .text-block {
     position: absolute;
-    height: 40%;
-    width: 30%;
+    height: 45%;
+    width: 45%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -305,6 +321,7 @@ and (max-device-width: 375px) {
 and (min-device-width: 376px) 
 and (max-device-width: 425px) { 
 .aboutContainer {
+    margin-top: 2em;
     padding-right: 1em; 
     padding-left: 1em;
 }
@@ -334,7 +351,6 @@ and (max-device-width: 425px) {
 }
 
 .contactImage {
-    margin-right: 0;
     width: 75%;
 }
 
@@ -353,7 +369,6 @@ and (max-device-width: 425px) {
 
 #contactIcons {
     display: block;
-    justify-content: center;
 }
 
 #meme-otional {
@@ -361,6 +376,10 @@ and (max-device-width: 425px) {
 }
 
 #use-by {
+    display: block;
+}
+
+#about {
     display: block;
 }
 
@@ -375,8 +394,8 @@ and (max-device-width: 425px) {
 
 .text-block {
     position: absolute;
-    height: 40%;
-    width: 30%;
+    height: 45%;
+    width: 45%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

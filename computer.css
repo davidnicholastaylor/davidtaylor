@@ -6,6 +6,7 @@ body {
 and (min-device-width: 1441px) {
     
 .aboutContainer {
+    margin-top: 2em;
     padding-right: 1em;
     padding-left: 1em;
 }
@@ -69,8 +70,8 @@ and (min-device-width: 1441px) {
 
 .text-block {
     position: absolute;
-    height: 30%;
-    width: 35%;
+    height: 65%;
+    width: 55%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
