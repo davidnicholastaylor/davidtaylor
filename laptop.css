@@ -61,7 +61,9 @@ and (max-device-width: 1024px) {
     justify-content: center;
 }
 
-
+#navButton {
+    font-size: 1.25em;
+}
 
 /* Landing */
 
@@ -197,6 +199,10 @@ and (max-device-width: 1440px) {
 #contactIcons {
     display: block;
     justify-content: center;
+}
+
+#navButton {
+    font-size: 1.5em;
 }
 
 /* Landing */

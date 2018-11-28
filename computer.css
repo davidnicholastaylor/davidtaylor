@@ -58,7 +58,9 @@ and (min-device-width: 1441px) {
     justify-content: center;
 }
 
-
+#navButton {
+    font-size: 3em;
+}
 
 /* Landing */
 
