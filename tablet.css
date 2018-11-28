@@ -2,19 +2,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@media only screen 
+and (min-device-width: 426px) 
+and (max-device-width: 768px) {
+    
 .aboutContainer {
-    padding-right: 3em;
-    padding-left: 3em;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 .aboutDescription {
-    padding: 3em;
     font-size: 1.1em;
 }
 
 .aboutPic {
-    padding: 3em;
-    width: 75%;
+    padding: 1em;
+    width: 100%;
 }
 
 .projectSection {
@@ -58,6 +61,7 @@ body {
 /* Landing */
 
 .landing {
+    max-width: 100%;
     position: relative;
     text-align: center;
     color: white;
@@ -94,41 +98,32 @@ body {
 
 /* Ticker */
 
-.imageSize {
-    display: inline-block;
-    height: 6em;
-    padding-right: 4em;
-}
-
 .tickerContainer {
-    height: 7em;
-    max-width: 100%;
+    height: 200px;
+    max-width: 90%;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
     transform: translate3d(0, 0, 0);
-}
-
-.tickerContainer > div {
-    height: 7em;
-    width: 650%;
+  }
+  
+  .tickerContainer > div {
+    height: 200px;
+    width: 5500%;
+    background: url(images/updated-ticker.jpg);
+    background-size: 90%;
     position: absolute;
     top: 0;
     left: 0;
     transform: translate3d(0, 0, 0);
   }
-
-.ticker {
-    padding-left: 100%;
-    display: inline-block;
-    height: 7em;
-    line-height: 7em;
-    white-space: nowrap;
-    animation: moveSlideshow 15s linear infinite;
-}
-
-@keyframes moveSlideshow {
+  .tickerContainer .ticker {
+    animation: moveSlideshow 18s linear infinite;
+  }
+  
+  @keyframes moveSlideshow {
     100% { 
       transform: translateX(-66.6666%);  
     }
   }
+}
