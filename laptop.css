@@ -1,0 +1,288 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(black, palevioletred);
+    font-size: 2.5vh;
+}
+
+
+/* Small */
+@media only screen 
+and (min-device-width: 770px) 
+and (max-device-width: 1024px) {
+    
+.aboutContainer {
+    padding: 2em 3em 3em 2em;
+}
+
+.aboutPic {
+    padding: 1em;
+}
+
+.projectContainer {
+    padding: 2em 3em 3em 3em;
+}
+
+.projectPic {
+    width: 100%;
+    height: 100%;
+    padding-top: 2em;
+}
+
+.contactContainer {
+    padding: 3em 3em 6em 3em;
+    width: 100%;
+}
+
+.contactImage {
+    margin-right: 0;
+    width: 75%;
+}
+
+.gitHubIcon {
+    height: 4%;
+    width: 12%;
+}
+.linkedInIcon {
+    height: 4%;
+    width: 12%;
+}
+.emailIcon {
+    height: 4%;
+    width: 12%;
+}
+
+#contactIcons {
+    display: block;
+    margin-left: 25%;
+}
+
+#navButton {
+    font-size: 1.25em;
+}
+
+/* Landing */
+
+.landing {
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text-block {
+    position: absolute;
+    height: 30%;
+    width: 35%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.55;
+    background-color: black;
+    color: antiquewhite;
+    padding: 1em 1em 1em 1em;
+    -webkit-animation: titleColor 3s;
+    animation: titleColor 4s infinite alternate;
+}
+
+@keyframes titleColor {
+    0%   {color: orange;}
+      
+    20%  {color: yellow;}
+      
+    40%  {color: yellow;}
+      
+    60%  {color: orange;}
+      
+    80%  {color: yellow;}
+     
+    100% {color: orange;}
+}
+
+/* Ticker */
+
+.tickerContainer {
+    height: 200px;
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .tickerContainer > div {
+    height: 200px;
+    width: 5500%;
+    background: url(images/updated-ticker.jpg);
+    background-size: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(0, 0, 0);
+  }
+  .tickerContainer .ticker {
+    animation: moveSlideshow 18s linear infinite;
+  }
+  
+  @keyframes moveSlideshow {
+    100% { 
+      transform: translateX(-66.6666%);  
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+/*  Large   */
+
+@media only screen 
+and (min-device-width: 1025px) 
+and (max-device-width: 1440px) {
+    
+.aboutContainer {
+    padding-top: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+#hambuger {
+    height: 150px;
+}
+
+.aboutContainer{
+    padding: 3em 3em 3em 3em;
+}
+
+.aboutPic {
+    padding: 1em;
+    width: 100%;
+}
+
+#aboutColumn {
+    margin: 2em;
+}
+
+.projectContainer {
+    padding: 3em 3em 3em 3em;
+}
+
+.projectPic {
+    width: 100%;
+    height: 100%;
+    padding-top: 2em;
+}
+
+.projectTitle {
+    font-size: 4vh;
+}
+
+.contactContainer {
+    padding: 6em 3em 6em 3em;
+    width: 100%;
+}
+
+.contactImage {
+    margin-right: 20%;
+    width: 75%;
+}
+
+.gitHubIcon {
+    height: 4%;
+    width: 12%;
+}
+.linkedInIcon {
+    height: 4%;
+    width: 12%;
+}
+.emailIcon {
+    height: 4%;
+    width: 12%;
+}
+
+#contactIcons {
+    display: block;
+    margin-left: 25%;
+}
+
+#navButton {
+    font-size: 2.5vh;
+}
+
+#meme-otional {
+    padding: 2em;
+}
+
+/* Landing */
+
+.landing {
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text-block {
+    position: absolute;
+    height: 30%;
+    width: 35%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.55;
+    background-color: black;
+    color: antiquewhite;
+    padding: 1em 1em 1em 1em;
+    -webkit-animation: titleColor 3s;
+    animation: titleColor 4s infinite alternate;
+}
+
+@keyframes titleColor {
+    0%   {color: orange;}
+      
+    20%  {color: yellow;}
+      
+    40%  {color: yellow;}
+      
+    60%  {color: orange;}
+      
+    80%  {color: yellow;}
+     
+    100% {color: orange;}
+}
+
+/* Ticker */
+
+.tickerContainer {
+    height: 200px;
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .tickerContainer > div {
+    height: 200px;
+    width: 5500%;
+    background: url(images/updated-ticker.jpg);
+    background-size: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(0, 0, 0);
+  }
+  .tickerContainer .ticker {
+    animation: moveSlideshow 18s linear infinite;
+  }
+  
+  @keyframes moveSlideshow {
+    100% { 
+      transform: translateX(-66.6666%);  
+    }
+  }
+}
