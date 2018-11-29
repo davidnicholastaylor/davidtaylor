@@ -1,66 +1,79 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(black, palevioletred);
+    font-size: 2.5vh;
 }
+
 
 @media only screen 
-and (min-device-width: 1441px) {
+and (min-device-width: 1441px)
+{
     
-.aboutContainer {
-    margin-top: 2em;
-    padding-right: 1em;
-    padding-left: 1em;
-}
+    .aboutContainer {
+        padding-top: 2em;
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+    
+    #hambuger {
+        height: 150px;
+    }
+    
+    .aboutContainer{
+        padding: 3em 3em 3em 3em;
+    }
+    
+    .aboutPic {
+        padding: 1em;
+        width: 70%;
+    }
+    
+    .projectContainer {
+        padding: 3em 3em 3em 3em;
+    }
+    
+    .projectPic {
+        width: 100%;
+        height: 100%;
+        padding-top: 2em;
+    }
+    
+    .projectTitle {
+        font-size: 4vh;
+    }
+    
+    .contactContainer {
+        padding: 6em 3em 6em 3em;
+        width: 100%;
+    }
+    
+    .contactImage {
+        margin-right: 20%;
+        width: 75%;
+    }
+    
+    .gitHubIcon {
+        height: 4%;
+        width: 12%;
+    }
+    .linkedInIcon {
+        height: 4%;
+        width: 12%;
+    }
+    .emailIcon {
+        height: 4%;
+        width: 12%;
+    }
+    
+    #contactIcons {
+        display: block;
+        margin-left: 25%;
+    }
+    
+    #navButton {
+        font-size: 70px;
+    }
 
-.aboutDescription {
-    font-size: 1.1em;
-}
-
-.aboutPic {
-    padding: 1em;
-    width: 100%;
-}
-
-.projectSection {
-    padding-top: 2em;
-}
-
-.projectPic {
-    width: 100%;
-    height: 100%;
-    padding-top: 2em;
-}
-
-.contactContainer {
-    padding: 6em 3em 6em 3em;
-    width: 100%;
-}
-
-.contactImage {
-    margin-right: 0;
-    width: 75%;
-}
-
-.gitHubIcon {
-    height: 4%;
-    width: 12%;
-}
-.linkedInIcon {
-    height: 4%;
-    width: 12%;
-}
-.emailIcon {
-    height: 4%;
-    width: 12%;
-}
-
-#contactIcons {
-    display: block;
-    justify-content: center;
-}
-
-#navButton {
-    font-size: 3em;
-}
 
 /* Landing */
 
@@ -81,7 +94,7 @@ and (min-device-width: 1441px) {
     opacity: 0.55;
     background-color: black;
     color: antiquewhite;
-    padding: 10%;
+    padding-top: 10%;
     -webkit-animation: titleColor 3s;
     animation: titleColor 4s infinite alternate;
 }
