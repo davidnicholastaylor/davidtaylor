@@ -12,11 +12,16 @@ and (max-device-width: 1024px) {
     
 .aboutContainer {
     padding: 2em 3em 3em 2em;
+    margin: 2.5em;
 }
 
 .aboutPic {
     padding: 1em;
     width: 100%;
+}
+
+.aboutDescription {
+    font-size: 1.25em;
 }
 
 .navbar-toggler {
@@ -26,7 +31,7 @@ and (max-device-width: 1024px) {
 
 .projectContainer {
     padding: 2em 3em 3em 3em;
-}
+    font-size: 1.25em;}
 
 .projectPic {
     width: 100%;
@@ -35,9 +40,9 @@ and (max-device-width: 1024px) {
 }
 
 .contactContainer {
-    padding: 3em 3em 6em 3em;
+    padding: 2em 3em 3em 3em;
     width: 100%;
-}
+    font-size: 1.25em;}
 
 .contactImage {
     margin-right: 0;
@@ -151,13 +156,8 @@ and (min-device-width: 1025px)
 and (max-device-width: 1440px) {
     
 .aboutContainer {
-    padding-top: 2em;
-    padding-right: 1em;
-    padding-left: 1em;
-}
-
-#hambuger {
-    height: 150px;
+    padding: 3em 3em 3em 3em;
+    margin: 2.5em;
 }
 
 .aboutContainer{
@@ -169,6 +169,10 @@ and (max-device-width: 1440px) {
     width: 100%;
 }
 
+.aboutDescription {
+    font-size: 1.75em;
+}
+
 .navbar-toggler {
     background-color: slategray;
     border: solid 1px gold
@@ -176,6 +180,7 @@ and (max-device-width: 1440px) {
 
 .projectContainer {
     padding: 3em 3em 3em 3em;
+    font-size: 1.75em;
 }
 
 .projectPic {
@@ -191,6 +196,7 @@ and (max-device-width: 1440px) {
 .contactContainer {
     padding: 6em 3em 6em 3em;
     width: 100%;
+    font-size: 1.75em;
 }
 
 .contactImage {
