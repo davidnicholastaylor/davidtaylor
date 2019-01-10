@@ -24,6 +24,17 @@ and (max-device-width: 320px) {
     width: 100%;
 }
 
+.navbar-toggler {
+    background-color: slategray;
+    border: solid 1px gold
+}
+
+.projectContainer {
+    margin-top: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
 .projectSection {
     padding-top: 2em;
 }
@@ -58,6 +69,10 @@ and (max-device-width: 320px) {
 
 #contactIcons {
     display: block;
+}
+
+#navButton {
+    font-size: 3vh;
 }
 
 #meme-otional {
@@ -85,7 +100,7 @@ and (max-device-width: 320px) {
     position: absolute;
     height: 45%;
     width: 55%;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0.55;
@@ -98,15 +113,15 @@ and (max-device-width: 320px) {
 
 @keyframes titleColor {
     0%   {color: orange;}
-      
+    
     20%  {color: yellow;}
-      
+    
     40%  {color: yellow;}
-      
+    
     60%  {color: orange;}
-      
+    
     80%  {color: yellow;}
-     
+    
     100% {color: orange;}
 }
 
@@ -119,9 +134,9 @@ and (max-device-width: 320px) {
     position: relative;
     overflow: hidden;
     transform: translate3d(0, 0, 0);
-  }
-  
-  .tickerContainer > div {
+}
+
+.tickerContainer > div {
     height: 200px;
     width: 5500%;
     background: url(images/updated-ticker.jpg);
@@ -130,16 +145,16 @@ and (max-device-width: 320px) {
     top: 0;
     left: 0;
     transform: translate3d(0, 0, 0);
-  }
-  .tickerContainer .ticker {
+}
+.tickerContainer .ticker {
     animation: moveSlideshow 18s linear infinite;
-  }
-  
-  @keyframes moveSlideshow {
+}
+
+@keyframes moveSlideshow {
     100% { 
-      transform: translateX(-66.6666%);  
+        transform: translateX(-66.6666%);  
     }
-  }
+}
 }
 
 
@@ -159,35 +174,46 @@ and (max-device-width: 320px) {
 and (min-device-width: 321px) 
 and (max-device-width: 375px) {
     
-.aboutContainer {
-    margin-top: 2em;
-    padding-right: 1em; 
-    padding-left: 1em;
-}
+    .aboutContainer {
+        margin-top: 2em;
+        padding-right: 1em; 
+        padding-left: 1em;
+    }
+    
+    .aboutDescription {
+        font-size: 1.1em;
+    }
+    
+    .aboutPic {
+        padding: 1em;
+        width: 100%;
+    }
 
-.aboutDescription {
-    font-size: 1.1em;
-}
-
-.aboutPic {
-    padding: 1em;
-    width: 100%;
-}
-
-.projectSection {
-    padding-top: 2em;
-}
-
-.projectPic {
-    width: 100%;
-    height: 100%;
-    padding-top: 2em;
-}
-
-.contactContainer {
-    padding: 1em;
-    width: 100%;
-}
+    .navbar-toggler {
+        background-color: slategray;
+        border: solid 1px gold
+    }
+    
+    .projectContainer {
+        margin-top: 2em;
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+    
+    .projectSection {
+        padding-top: 2em;
+    }
+    
+    .projectPic {
+        width: 100%;
+        height: 100%;
+        padding-top: 2em;
+    }
+    
+    .contactContainer {
+        padding: 1em;
+        width: 100%;
+    }
 
 .contactImage {
     width: 75%;
@@ -206,8 +232,16 @@ and (max-device-width: 375px) {
     width: 30%;
 }
 
+.fixed-top {
+    margin: 1em;
+}
+
 #contactIcons {
     display: block;
+}
+
+#navButton {
+    font-size: 3vh;
 }
 
 #meme-otional {
@@ -235,7 +269,7 @@ and (max-device-width: 375px) {
     position: absolute;
     height: 45%;
     width: 45%;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0.55;
@@ -323,6 +357,17 @@ and (max-device-width: 425px) {
     width: 100%;
 }
 
+.navbar-toggler {
+    background-color: slategray;
+    border: solid 1px gold
+}
+
+.projectContainer {
+    margin-top: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
 .projectSection {
     padding-top: 2em;
 }
@@ -359,6 +404,10 @@ and (max-device-width: 425px) {
     display: block;
 }
 
+#navButton {
+    font-size: 3vh;
+}
+
 #meme-otional {
     display: block;
 }
@@ -384,7 +433,7 @@ and (max-device-width: 425px) {
     position: absolute;
     height: 45%;
     width: 45%;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0.55;

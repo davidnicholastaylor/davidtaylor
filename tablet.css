@@ -23,6 +23,11 @@ and (max-device-width: 768px) {
     width: 100%;
 }
 
+.navbar-toggler {
+    background-color: slategray;
+    border: solid 1px gold
+}
+
 .projectSection {
     padding-top: 2em;
 }

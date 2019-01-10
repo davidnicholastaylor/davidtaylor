@@ -16,6 +16,12 @@ and (max-device-width: 1024px) {
 
 .aboutPic {
     padding: 1em;
+    width: 100%;
+}
+
+.navbar-toggler {
+    background-color: slategray;
+    border: solid 1px gold
 }
 
 .projectContainer {
@@ -163,8 +169,9 @@ and (max-device-width: 1440px) {
     width: 100%;
 }
 
-#aboutColumn {
-    margin: 2em;
+.navbar-toggler {
+    background-color: slategray;
+    border: solid 1px gold
 }
 
 .projectContainer {
