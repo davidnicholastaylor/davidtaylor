@@ -30,6 +30,11 @@ and (min-device-width: 1441px)
         width: 4vw;
         height: 3vw;
     }
+
+    .navbar-toggler-icon {
+        width: 3vw;
+        height: 2vw;
+    }
     
     .projectContainer {
         padding: 3em 3em 3em 3em;

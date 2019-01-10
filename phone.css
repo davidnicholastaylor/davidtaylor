@@ -72,7 +72,7 @@ and (max-device-width: 320px) {
 }
 
 #navButton {
-    font-size: 2vh;
+    font-size: 3vh;
 }
 
 #meme-otional {
@@ -241,7 +241,7 @@ and (max-device-width: 375px) {
 }
 
 #navButton {
-    font-size: 2vh;
+    font-size: 3vh;
 }
 
 #meme-otional {
@@ -405,7 +405,7 @@ and (max-device-width: 425px) {
 }
 
 #navButton {
-    font-size: 2vh;
+    font-size: 3vh;
 }
 
 #meme-otional {
@@ -433,7 +433,7 @@ and (max-device-width: 425px) {
     position: absolute;
     height: 45%;
     width: 45%;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0.55;
