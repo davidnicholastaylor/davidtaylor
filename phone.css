@@ -90,6 +90,7 @@ and (max-device-width: 320px) {
 /* Landing */
 
 .landing {
+    display: hidden;
     max-width: 100%;
     position: relative;
     text-align: center;
