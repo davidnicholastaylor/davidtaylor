@@ -60,6 +60,10 @@ and (max-device-width: 320px) {
     display: block;
 }
 
+#navButton {
+    font-size: 2vh;
+}
+
 #meme-otional {
     display: block;
 }
@@ -206,8 +210,16 @@ and (max-device-width: 375px) {
     width: 30%;
 }
 
+.fixed-top {
+    margin: 1em;
+}
+
 #contactIcons {
     display: block;
+}
+
+#navButton {
+    font-size: 2vh;
 }
 
 #meme-otional {
@@ -225,8 +237,8 @@ and (max-device-width: 375px) {
 /* Landing */
 
 .landing {
-    max-width: 100%;
-    position: relative;
+    background-position-x: 57%;
+    max-width: 100vw;
     text-align: center;
     color: white;
 }
@@ -357,6 +369,10 @@ and (max-device-width: 425px) {
 
 #contactIcons {
     display: block;
+}
+
+#navButton {
+    font-size: 2vh;
 }
 
 #meme-otional {

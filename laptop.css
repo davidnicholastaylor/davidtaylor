@@ -16,6 +16,7 @@ and (max-device-width: 1024px) {
 
 .aboutPic {
     padding: 1em;
+    width: 100%;
 }
 
 .projectContainer {
