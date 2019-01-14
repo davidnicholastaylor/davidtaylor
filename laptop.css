@@ -232,11 +232,116 @@ and (max-device-width: 1440px) {
 
 /* Landing */
 
-.landing {
-    max-width: 100%;
+.header {
+    background-image: url(images/tim-foster-1054698-unsplash-cropped.jpg);
+    height: 100vh;
+    background-size: cover;
     position: relative;
+    overflow: hidden;
+}
+.header:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: .65;
+    z-index: 2;
+}
+.header .v-middle {
+    z-index: 11;
+}
+.header .caption {
     text-align: center;
-    color: white;
+    color: #fff;
+    margin-top: 50px;
+}
+.header .caption h5 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.header .caption h1 {
+    font-weight: 200;
+}
+.header .caption h1 b {
+    font-weight: 400;
+}
+
+.cd-headline {
+font-size: 3rem;
+line-height: 1.2;
+margin-left: 2em;
+text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+.cd-headline {
+    font-size: 4.4rem;
+    font-weight: 300;
+}
+}
+@media only screen and (min-width: 1170px) {
+.cd-headline {
+    font-size: 6rem;
+}
+}
+.cd-words-wrapper {
+display: inline-block;
+position: relative;
+text-align: left;
+}
+
+.cd-words-wrapper b {
+display: inline-block;
+position: absolute;
+white-space: nowrap;
+left: 0;
+top: 0;
+}
+
+.cd-words-wrapper b.is-visible {
+position: relative;
+}
+
+.no-js .cd-words-wrapper b {
+opacity: 0;
+}
+
+.no-js .cd-words-wrapper b.is-visible {
+opacity: 1;
+}
+
+/* xclip */
+.cd-headline.clip span {
+    display: inline-block;
+    padding: .2em 0;
+}
+
+.cd-headline.clip .cd-words-wrapper {
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.cd-headline.clip .cd-words-wrapper::after {
+/* line */
+    content: '';
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 2px;
+    height: 70%;
+    background-color: #aebcb9;
+}
+
+.cd-headline.clip b {
+    opacity: 0;
+}
+
+.cd-headline b.is-visible {
+    opacity: 1;
 }
 
 .text-block {
