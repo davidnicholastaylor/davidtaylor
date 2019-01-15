@@ -6,7 +6,6 @@ body {
 
 /* Small */
 @media only screen 
-and (min-device-width: 0px) 
 and (max-device-width: 320px) {
     
 .aboutContainer {
@@ -88,7 +87,7 @@ and (max-device-width: 320px) {
 }
 
 .header {
-    background-image: url(images/kristopher-roller-110203-unsplash.jpg);
+    background-image: url(images/markus-spiske-221494-unsplash.jpg);
     height: 100vh;
     background-size: cover;
     position: relative;
@@ -140,7 +139,7 @@ and (max-device-width: 320px) {
 /* Medium */
 
 @media only screen 
-and (min-device-width: 321px) 
+and (min-device-width: 321px)
 and (max-device-width: 375px) {
     
     .aboutContainer {
@@ -226,7 +225,7 @@ and (max-device-width: 375px) {
 }
 
 .header {
-    background-image: url(images/kristopher-roller-110203-unsplash.jpg);
+    background-image: url(images/markus-spiske-221494-unsplash.jpg);
     height: 100vh;
     background-size: cover;
     position: relative;
@@ -278,7 +277,7 @@ and (max-device-width: 375px) {
 /* Large */
 
 @media only screen 
-and (min-device-width: 376px) 
+and (min-device-width: 376px)
 and (max-device-width: 425px) { 
 .aboutContainer {
     margin-top: 2em;
@@ -359,7 +358,7 @@ and (max-device-width: 425px) {
 }
 
 .header {
-    background-image: url(images/kristopher-roller-110203-unsplash.jpg);
+    background-image: url(images/markus-spiske-221494-unsplash.jpg);
     height: 100vh;
     background-size: cover;
     position: relative;

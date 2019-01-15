@@ -19,8 +19,8 @@ and (max-device-width: 768px) {
 }
 
 .aboutPic {
+    max-width: 100%;
     padding: 1em;
-    width: 100%;
 }
 
 .navbar-toggler {
@@ -71,26 +71,25 @@ and (max-device-width: 768px) {
 #contactIcons {
     display: block;
     justify-content: center;
+    margin-left: 25%;
+}
+
+#meme-otional {
+    display: block;
+}
+
+#use-by {
+    display: block;
 }
 
 .header {
-    background-image: url(images/kristopher-roller-110203-unsplash.jpg);
+    background-image: url(images/markus-spiske-221494-unsplash.jpg);
     height: 100vh;
     background-size: cover;
     position: relative;
     overflow: hidden;
 }
-.header:after {
-    content: '';
-    position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #000;
-    opacity: .65;
-    z-index: 2;
-}
+
 .header .v-middle {
     z-index: 11;
 }

@@ -78,13 +78,9 @@ and (min-device-width: 1441px)
         margin-left: 25%;
     }
 
-    #navButton {
-        font-size: 1.5em;
-    }
-
 
     .header {
-        background-image: url(images/kristopher-roller-110203-unsplash.jpg);
+        background-image: url(images/markus-spiske-221494-unsplash.jpg);
         height: 100vh;
         background-size: cover;
         position: relative;
