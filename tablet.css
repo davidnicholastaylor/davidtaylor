@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(black, palevioletred);
+    background-image: linear-gradient(black, paleturquoise);
 
 }
 
@@ -15,7 +15,7 @@ and (max-device-width: 768px) {
 }
 
 .aboutDescription {
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .aboutPic {
@@ -29,9 +29,10 @@ and (max-device-width: 768px) {
 }
 
 .projectContainer {
-        margin-top: 2em;
-        padding-right: 1em;
-        padding-left: 1em;
+    margin-top: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-size: 1.2em;
 }
 
 .projectSection {
@@ -39,7 +40,7 @@ and (max-device-width: 768px) {
 }
 
 .projectPic {
-    width: 100%;
+    width: 95%;
     height: 100%;
     padding-top: 2em;
 }
@@ -48,6 +49,7 @@ and (max-device-width: 768px) {
         margin-top: 2em;
         padding-right: 1em;
         padding-left: 1em;
+        font-size: 1.2em;
 }
 
 .contactImage {
@@ -83,7 +85,7 @@ and (max-device-width: 768px) {
 }
 
 .header {
-    background-image: url(images/markus-spiske-221494-unsplash.jpg);
+    background-image: url(images/buzz-andersen-145254-unsplash.jpg);
     height: 100vh;
     background-size: cover;
     position: relative;

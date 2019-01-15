@@ -87,7 +87,7 @@ and (max-device-width: 320px) {
 }
 
 .header {
-    background-image: url(images/markus-spiske-221494-unsplash.jpg);
+    background-image: url(images/buzz-andersen-145254-unsplash.jpg);
     height: 100vh;
     background-size: cover;
     position: relative;
@@ -225,7 +225,7 @@ and (max-device-width: 375px) {
 }
 
 .header {
-    background-image: url(images/markus-spiske-221494-unsplash.jpg);
+    background-image: url(images/buzz-andersen-145254-unsplash.jpg);
     height: 100vh;
     background-size: cover;
     position: relative;
@@ -358,7 +358,7 @@ and (max-device-width: 425px) {
 }
 
 .header {
-    background-image: url(images/markus-spiske-221494-unsplash.jpg);
+    background-image: url(images/buzz-andersen-145254-unsplash.jpg);
     height: 100vh;
     background-size: cover;
     position: relative;
