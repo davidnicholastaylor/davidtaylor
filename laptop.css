@@ -13,6 +13,7 @@ and (max-device-width: 1024px) {
 .aboutContainer {
     padding: 2em 3em 3em 2em;
     margin: 2.5em;
+    font-size: 1.2em;
 }
 
 #aboutColumn {
@@ -38,7 +39,11 @@ and (max-device-width: 1024px) {
 
 .projectContainer {
     padding: 2em 3em 3em 3em;
-    font-size: 1.25em;}
+    font-size: 1.5em;}
+
+.projectTitle {
+    font-size: 6vh;
+}
 
 .mememotional-pic {
     max-width: 49%;
@@ -140,6 +145,7 @@ and (max-device-width: 1440px) {
 .aboutContainer {
     padding: 3em 3em 3em 3em;
     margin: 2.5em;
+    font-size: 1.3em;
 }
 
 #aboutColumn {
@@ -190,7 +196,7 @@ and (max-device-width: 1440px) {
 }
 
 .projectTitle {
-    font-size: 4vh;
+    font-size: 6vh;
 }
 
 .contactContainer {
