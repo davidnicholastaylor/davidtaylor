@@ -39,10 +39,14 @@ and (max-device-width: 768px) {
     padding-top: 2em;
 }
 
-.projectPic {
-    width: 95%;
-    height: 100%;
-    padding-top: 2em;
+.mememotional-pic {
+    max-width: 49%;
+    padding: .5em;
+}
+
+.use-by-pic {
+    max-width: 32%;
+    padding: .5em;
 }
 
 .contactContainer {
@@ -98,7 +102,7 @@ and (max-device-width: 768px) {
 .header .caption {
     text-align: center;
     text-shadow: 1px 0 0 antiquewhite, -1px 0 0 antiquewhite, 0 1px 0 antiquewhite, 0 -1px 0 antiquewhite, .5px .5px antiquewhite, -.5px -.5px 0 antiquewhite, .5px -.5px 0 antiquewhite, -.5px .5px 0 antiquewhite;
-    opacity: 0.75;
+    opacity: 0.95;
     color: black;
     margin: 18% 18% 18% 31%;
 }

@@ -29,7 +29,6 @@ and (min-device-width: 1441px)
     }
 
     .navbar-toggler {
-        background-color: slategray;
         border: solid 1px lightsalmon;
         width: 4vw;
         height: 3vw;
@@ -45,7 +44,12 @@ and (min-device-width: 1441px)
         font-size: 1.5em;
     }
     
-    .projectPic {
+    .mememotional-pic {
+        max-width: 100%;
+        padding: 1em;
+    }
+
+    .use-by-pic {
         max-width: 100%;
         padding: 1em;
     }
@@ -107,6 +111,7 @@ and (min-device-width: 1441px)
     .header .caption {
         text-align: center;
         opacity: 0.95;
+        text-shadow: 1px 0 0 antiquewhite, -1px 0 0 antiquewhite, 0 1px 0 antiquewhite, 0 -1px 0 antiquewhite, .5px .5px antiquewhite, -.5px -.5px 0 antiquewhite, .5px -.5px 0 antiquewhite, -.5px .5px 0 antiquewhite;
         color: black;
         margin: 18% 18% 18% 31%;
     }
