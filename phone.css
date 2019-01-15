@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(black, palevioletred);
+    background-image: linear-gradient(black, paleturquoise);
 }
 
 
@@ -14,18 +14,24 @@ and (max-device-width: 320px) {
     padding-left: 1em;
 }
 
-.aboutDescription {
-    font-size: 1.1em;
+#aboutColumn {
+    display: block;
 }
 
 .aboutPic {
+    max-width: 100%;
     padding: 1em;
-    width: 100%;
+}
+
+.aboutDescription {
+    max-width: 100%;
+    font-size: 1.2em;
+    margin: 0;
 }
 
 .navbar-toggler {
     background-color: slategray;
-    border: solid 1px gold
+    border: solid 1px lightsalmon;
 }
 
 .projectContainer {
@@ -151,18 +157,24 @@ and (max-device-width: 375px) {
         padding-left: 1em;
     }
     
-    .aboutDescription {
-        font-size: 1.1em;
+    #aboutColumn {
+        display: block;
+    }
+
+    .aboutPic {
+        max-width: 100%;
+        padding: 1em;
     }
     
-    .aboutPic {
-        padding: 1em;
-        width: 100%;
+    .aboutDescription {
+        max-width: 100%;
+        font-size: 1.2em;
+        margin: 0;
     }
 
     .navbar-toggler {
         background-color: slategray;
-        border: solid 1px gold
+        border: solid 1px lightsalmon;
     }
     
     .projectContainer {
@@ -291,18 +303,24 @@ and (max-device-width: 425px) {
     padding-left: 1em;
 }
 
-.aboutDescription {
-    font-size: 1.1em;
+#aboutColumn {
+    display: block;
 }
 
 .aboutPic {
+    max-width: 100%;
     padding: 1em;
-    width: 100%;
+}
+
+.aboutDescription {
+    max-width: 100%;
+    font-size: 1.2em;
+    margin: 0;
 }
 
 .navbar-toggler {
     background-color: slategray;
-    border: solid 1px gold
+    border: solid 1px lightsalmon;
 }
 
 .projectContainer {

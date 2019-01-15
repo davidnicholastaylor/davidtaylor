@@ -14,18 +14,25 @@ and (max-device-width: 768px) {
     padding-left: 1em;
 }
 
-.aboutDescription {
-    font-size: 1.2em;
+#aboutColumn {
+    display: flex;
 }
 
 .aboutPic {
-    max-width: 100%;
+    max-width: 100vw;
+    max-height: 100vh;
     padding: 1em;
+}
+
+.aboutDescription {
+    max-width: 100vw;
+    font-size: 1.2em;
+    margin: 0;
 }
 
 .navbar-toggler {
     background-color: slategray;
-    border: solid 1px gold
+    border: solid 1px lightsalmon;
 }
 
 .projectContainer {
@@ -80,14 +87,6 @@ and (max-device-width: 768px) {
     margin-left: 25%;
 }
 
-#meme-otional {
-    display: block;
-}
-
-#use-by {
-    display: block;
-}
-
 .header {
     background-image: url(images/buzz-andersen-145254-unsplash.jpg);
     height: 100vh;
@@ -104,7 +103,7 @@ and (max-device-width: 768px) {
     text-shadow: 1px 0 0 antiquewhite, -1px 0 0 antiquewhite, 0 1px 0 antiquewhite, 0 -1px 0 antiquewhite, .5px .5px antiquewhite, -.5px -.5px 0 antiquewhite, .5px -.5px 0 antiquewhite, -.5px .5px 0 antiquewhite;
     opacity: 0.95;
     color: black;
-    margin: 18% 18% 18% 31%;
+    margin: 18% 18% 18% 28%;
 }
 .header .caption h5 {
     font-size: 50px;
