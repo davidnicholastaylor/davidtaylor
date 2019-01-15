@@ -71,74 +71,44 @@ and (max-device-width: 1024px) {
     font-size: 1.25em;
 }
 
-/* Landing */
-
-.landing {
-    max-width: 100%;
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.text-block {
-    position: absolute;
-    height: 30%;
-    width: 35%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0.55;
-    background-color: black;
-    color: antiquewhite;
-    padding: 1em 1em 1em 1em;
-    -webkit-animation: titleColor 3s;
-    animation: titleColor 4s infinite alternate;
-}
-
-@keyframes titleColor {
-    0%   {color: orange;}
-      
-    20%  {color: yellow;}
-      
-    40%  {color: yellow;}
-      
-    60%  {color: orange;}
-      
-    80%  {color: yellow;}
-     
-    100% {color: orange;}
-}
-
-/* Ticker */
-
-.tickerContainer {
-    height: 200px;
-    max-width: 90%;
-    margin: 0 auto;
+.header {
+    background-image: url(images/kristopher-roller-110203-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
     position: relative;
     overflow: hidden;
-    transform: translate3d(0, 0, 0);
-  }
-  
-  .tickerContainer > div {
-    height: 200px;
-    width: 5500%;
-    background: url(images/updated-ticker.jpg);
-    background-size: 90%;
-    position: absolute;
+}
+.header:after {
+    content: '';
+    position: relative;
     top: 0;
+    bottom: 0;
     left: 0;
-    transform: translate3d(0, 0, 0);
-  }
-  .tickerContainer .ticker {
-    animation: moveSlideshow 18s linear infinite;
-  }
-  
-  @keyframes moveSlideshow {
-    100% { 
-      transform: translateX(-66.6666%);  
-    }
-  }
+    right: 0;
+    background: #000;
+    opacity: .65;
+    z-index: 2;
+}
+.header .v-middle {
+    z-index: 11;
+}
+.header .caption {
+    text-align: center;
+    opacity: 0.75;
+    color: black;
+    margin: 18% 18% 18% 31%;
+}
+.header .caption h5 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.header .caption h1 {
+    font-weight: 200;
+}
+.header .caption h1 b {
+    font-weight: 400;
+}
 }
 
 
@@ -230,10 +200,8 @@ and (max-device-width: 1440px) {
     padding: 2em;
 }
 
-/* Landing */
-
 .header {
-    background-image: url(images/tim-foster-1054698-unsplash-cropped.jpg);
+    background-image: url(images/kristopher-roller-110203-unsplash.jpg);
     height: 100vh;
     background-size: cover;
     position: relative;
@@ -241,7 +209,7 @@ and (max-device-width: 1440px) {
 }
 .header:after {
     content: '';
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     left: 0;
@@ -255,8 +223,9 @@ and (max-device-width: 1440px) {
 }
 .header .caption {
     text-align: center;
-    color: #fff;
-    margin-top: 50px;
+    opacity: 0.75;
+    color: black;
+    margin: 18% 18% 18% 31%;
 }
 .header .caption h5 {
     font-size: 50px;
@@ -269,138 +238,4 @@ and (max-device-width: 1440px) {
 .header .caption h1 b {
     font-weight: 400;
 }
-
-.cd-headline {
-font-size: 3rem;
-line-height: 1.2;
-margin-left: 2em;
-text-align: center;
-}
-
-@media only screen and (min-width: 768px) {
-.cd-headline {
-    font-size: 4.4rem;
-    font-weight: 300;
-}
-}
-@media only screen and (min-width: 1170px) {
-.cd-headline {
-    font-size: 6rem;
-}
-}
-.cd-words-wrapper {
-display: inline-block;
-position: relative;
-text-align: left;
-}
-
-.cd-words-wrapper b {
-display: inline-block;
-position: absolute;
-white-space: nowrap;
-left: 0;
-top: 0;
-}
-
-.cd-words-wrapper b.is-visible {
-position: relative;
-}
-
-.no-js .cd-words-wrapper b {
-opacity: 0;
-}
-
-.no-js .cd-words-wrapper b.is-visible {
-opacity: 1;
-}
-
-/* xclip */
-.cd-headline.clip span {
-    display: inline-block;
-    padding: .2em 0;
-}
-
-.cd-headline.clip .cd-words-wrapper {
-    overflow: hidden;
-    vertical-align: top;
-}
-
-.cd-headline.clip .cd-words-wrapper::after {
-/* line */
-    content: '';
-    position: absolute;
-    top: 10%;
-    right: 0;
-    width: 2px;
-    height: 70%;
-    background-color: #aebcb9;
-}
-
-.cd-headline.clip b {
-    opacity: 0;
-}
-
-.cd-headline b.is-visible {
-    opacity: 1;
-}
-
-.text-block {
-    position: absolute;
-    height: 30%;
-    width: 35%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0.55;
-    background-color: black;
-    color: antiquewhite;
-    padding: 1em 1em 1em 1em;
-    -webkit-animation: titleColor 3s;
-    animation: titleColor 4s infinite alternate;
-}
-
-@keyframes titleColor {
-    0%   {color: orange;}
-      
-    20%  {color: yellow;}
-      
-    40%  {color: yellow;}
-      
-    60%  {color: orange;}
-      
-    80%  {color: yellow;}
-     
-    100% {color: orange;}
-}
-
-/* Ticker */
-
-.tickerContainer {
-    height: 200px;
-    max-width: 90%;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-    transform: translate3d(0, 0, 0);
-  }
-  
-  .tickerContainer > div {
-    height: 200px;
-    width: 5500%;
-    background: url(images/updated-ticker.jpg);
-    background-size: 90%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate3d(0, 0, 0);
-  }
-  .tickerContainer .ticker {
-    animation: moveSlideshow 18s linear infinite;
-  }
-  
-  @keyframes moveSlideshow {
-    100% { 
-      transform: translateX(-66.6666%);  
-    }
-  }
 }

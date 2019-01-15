@@ -87,77 +87,45 @@ and (max-device-width: 320px) {
     display: block;
 }
 
-/* Landing */
-
-.landing {
-    display: hidden;
-    max-width: 100%;
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.text-block {
-    position: absolute;
-    height: 45%;
-    width: 55%;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0.55;
-    background-color: black;
-    color: antiquewhite;
-    padding: 1em 1em 1em 1em;
-    -webkit-animation: titleColor 3s;
-    animation: titleColor 4s infinite alternate;
-}
-
-@keyframes titleColor {
-    0%   {color: orange;}
-    
-    20%  {color: yellow;}
-    
-    40%  {color: yellow;}
-    
-    60%  {color: orange;}
-    
-    80%  {color: yellow;}
-    
-    100% {color: orange;}
-}
-
-/* Ticker */
-
-.tickerContainer {
-    height: 200px;
-    max-width: 90%;
-    margin: 0 auto;
+.header {
+    background-image: url(images/kristopher-roller-110203-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
     position: relative;
     overflow: hidden;
-    transform: translate3d(0, 0, 0);
 }
-
-.tickerContainer > div {
-    height: 200px;
-    width: 5500%;
-    background: url(images/updated-ticker.jpg);
-    background-size: 90%;
-    position: absolute;
+.header:after {
+    content: '';
+    position: relative;
     top: 0;
+    bottom: 0;
     left: 0;
-    transform: translate3d(0, 0, 0);
+    right: 0;
+    background: #000;
+    opacity: .65;
+    z-index: 2;
 }
-.tickerContainer .ticker {
-    animation: moveSlideshow 18s linear infinite;
+.header .v-middle {
+    z-index: 11;
 }
-
-@keyframes moveSlideshow {
-    100% { 
-        transform: translateX(-66.6666%);  
-    }
+.header .caption {
+    text-align: center;
+    opacity: 0.75;
+    color: black;
+    margin: 18% 18% 18% 31%;
+}
+.header .caption h5 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.header .caption h1 {
+    font-weight: 200;
+}
+.header .caption h1 b {
+    font-weight: 400;
 }
 }
-
 
 
 
@@ -257,76 +225,45 @@ and (max-device-width: 375px) {
     display: block;
 }
 
-/* Landing */
-
-.landing {
-    max-width: 100%;
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.text-block {
-    position: absolute;
-    height: 45%;
-    width: 45%;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0.55;
-    background-color: black;
-    color: antiquewhite;
-    padding: 1em 1em 1em 1em;
-    -webkit-animation: titleColor 3s;
-    animation: titleColor 4s infinite alternate;
-}
-
-@keyframes titleColor {
-    0%   {color: orange;}
-      
-    20%  {color: yellow;}
-      
-    40%  {color: yellow;}
-      
-    60%  {color: orange;}
-      
-    80%  {color: yellow;}
-     
-    100% {color: orange;}
-}
-
-/* Ticker */
-
-.tickerContainer {
-    height: 200px;
-    max-width: 90%;
-    margin: 0 auto;
+.header {
+    background-image: url(images/kristopher-roller-110203-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
     position: relative;
     overflow: hidden;
-    transform: translate3d(0, 0, 0);
-  }
-  
-  .tickerContainer > div {
-    height: 200px;
-    width: 5500%;
-    background: url(images/updated-ticker.jpg);
-    background-size: 90%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate3d(0, 0, 0);
-  }
-  .tickerContainer .ticker {
-    animation: moveSlideshow 18s linear infinite;
-  }
-  
-  @keyframes moveSlideshow {
-    100% { 
-      transform: translateX(-66.6666%);  
-    }
-  }
 }
-
+.header:after {
+    content: '';
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: .65;
+    z-index: 2;
+}
+.header .v-middle {
+    z-index: 11;
+}
+.header .caption {
+    text-align: center;
+    opacity: 0.75;
+    color: black;
+    margin: 18% 18% 18% 31%;
+}
+.header .caption h5 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.header .caption h1 {
+    font-weight: 200;
+}
+.header .caption h1 b {
+    font-weight: 400;
+}
+}
 
 
 
@@ -421,74 +358,44 @@ and (max-device-width: 425px) {
     display: block;
 }
 
-/* Landing */
-
-.landing {
-    max-width: 100%;
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.text-block {
-    position: absolute;
-    height: 45%;
-    width: 45%;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0.55;
-    background-color: black;
-    color: antiquewhite;
-    padding: 1em 1em 1em 1em;
-    -webkit-animation: titleColor 3s;
-    animation: titleColor 4s infinite alternate;
-}
-
-@keyframes titleColor {
-    0%   {color: orange;}
-        
-    20%  {color: yellow;}
-        
-    40%  {color: yellow;}
-        
-    60%  {color: orange;}
-        
-    80%  {color: yellow;}
-        
-    100% {color: orange;}
-}
-
-/* Ticker */
-
-.tickerContainer {
-    height: 200px;
-    max-width: 90%;
-    margin: 0 auto;
+.header {
+    background-image: url(images/kristopher-roller-110203-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
     position: relative;
     overflow: hidden;
-    transform: translate3d(0, 0, 0);
-    }
-    
-    .tickerContainer > div {
-    height: 200px;
-    width: 5500%;
-    background: url(images/updated-ticker.jpg);
-    background-size: 90%;
-    position: absolute;
+}
+.header:after {
+    content: '';
+    position: relative;
     top: 0;
+    bottom: 0;
     left: 0;
-    transform: translate3d(0, 0, 0);
-    }
-    .tickerContainer .ticker {
-    animation: moveSlideshow 18s linear infinite;
-    }
-    
-    @keyframes moveSlideshow {
-    100% { 
-        transform: translateX(-66.6666%);  
-    }
-    }
+    right: 0;
+    background: #000;
+    opacity: .65;
+    z-index: 2;
+}
+.header .v-middle {
+    z-index: 11;
+}
+.header .caption {
+    text-align: center;
+    opacity: 0.75;
+    color: black;
+    margin: 18% 18% 18% 31%;
+}
+.header .caption h5 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.header .caption h1 {
+    font-weight: 200;
+}
+.header .caption h1 b {
+    font-weight: 400;
+}
 }
 
 
