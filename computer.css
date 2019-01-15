@@ -42,6 +42,7 @@ and (min-device-width: 1441px)
     
     .projectContainer {
         padding: 3em 3em 3em 3em;
+        font-size: 1.5em;
     }
     
     .projectPic {

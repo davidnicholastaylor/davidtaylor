@@ -35,8 +35,7 @@ and (max-device-width: 1024px) {
 
 .projectPic {
     width: 100%;
-    height: 100%;
-    padding-top: 2em;
+    padding: 1em;
 }
 
 .contactContainer {
@@ -154,7 +153,8 @@ and (max-device-width: 1440px) {
 }
 
 .projectPic {
-    padding-top: 2em;
+    padding: .5em;
+    max-width: 100%;
 }
 
 .projectTitle {

@@ -70,10 +70,6 @@ and (max-device-width: 320px) {
     display: block;
 }
 
-#navButton {
-    font-size: 3vh;
-}
-
 #meme-otional {
     display: block;
 }
@@ -110,8 +106,9 @@ and (max-device-width: 320px) {
 .header .caption {
     text-align: center;
     opacity: 0.75;
+    text-shadow: 1px 0 0 antiquewhite, -1px 0 0 antiquewhite, 0 1px 0 antiquewhite, 0 -1px 0 antiquewhite, .5px .5px antiquewhite, -.5px -.5px 0 antiquewhite, .5px -.5px 0 antiquewhite, -.5px .5px 0 antiquewhite;
     color: black;
-    margin: 18% 18% 18% 31%;
+    margin: 18% 18% 18% 20%;
 }
 .header .caption h5 {
     font-size: 50px;
@@ -208,10 +205,6 @@ and (max-device-width: 375px) {
     display: block;
 }
 
-#navButton {
-    font-size: 3vh;
-}
-
 #meme-otional {
     display: block;
 }
@@ -248,8 +241,9 @@ and (max-device-width: 375px) {
 .header .caption {
     text-align: center;
     opacity: 0.75;
+    text-shadow: 1px 0 0 antiquewhite, -1px 0 0 antiquewhite, 0 1px 0 antiquewhite, 0 -1px 0 antiquewhite, .5px .5px antiquewhite, -.5px -.5px 0 antiquewhite, .5px -.5px 0 antiquewhite, -.5px .5px 0 antiquewhite;
     color: black;
-    margin: 18% 18% 18% 31%;
+    margin: 18% 18% 18% 20%;
 }
 .header .caption h5 {
     font-size: 50px;
@@ -341,13 +335,6 @@ and (max-device-width: 425px) {
     display: block;
 }
 
-#navButton {
-    font-size: 3vh;
-}
-
-#meme-otional {
-    display: block;
-}
 
 #use-by {
     display: block;
@@ -381,8 +368,9 @@ and (max-device-width: 425px) {
 .header .caption {
     text-align: center;
     opacity: 0.75;
+    text-shadow: 1px 0 0 antiquewhite, -1px 0 0 antiquewhite, 0 1px 0 antiquewhite, 0 -1px 0 antiquewhite, .5px .5px antiquewhite, -.5px -.5px 0 antiquewhite, .5px -.5px 0 antiquewhite, -.5px .5px 0 antiquewhite;
     color: black;
-    margin: 18% 18% 18% 31%;
+    margin: 18% 18% 18% 20%;
 }
 .header .caption h5 {
     font-size: 50px;
